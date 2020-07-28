@@ -108,7 +108,6 @@ def main(argv):
 
 # Start the main loop
 if __name__ == "__main__":
-    print(sys.argv[1:])
     if sys.argv[1:] != []:
         main(sys.argv[1:])
     else:
